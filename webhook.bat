@@ -1,7 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
 
-set WEBHOOK_URL="https://discord.com/api/webhooks/1305468665814319165/rB4sM8dYCdqLqqXzqb9NJwnODWp5U7hNPS7dOSNJX8qRbgHeC5qg8sO5HHkIx1pK6jov"
+set WEBHOOK_URL="YOUR_WEBHOOK_URL"
 
 :: Get the public IPv4 address
 for /f "tokens=*" %%a in ('curl -4 -s https://ifconfig.me') do set PUBLIC_IP=%%a
